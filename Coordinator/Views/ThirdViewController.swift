@@ -16,4 +16,12 @@ class ThirdViewController: UIViewController, Storyboardable {
 
         title = "Third VC"
     }
+    
+    @IBAction func openFirstVC(_ sender: Any) {
+        coordinator?.openFirstVC()
+    }
+    
+    @IBAction func openSecondVC(_ sender: Any) {
+        coordinator?.openSecondVC()
+    }
 }

@@ -24,12 +24,18 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="To SecondVC"/>
+                                        <connections>
+                                            <action selector="openSecondVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hdj-BH-LA3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkC-XE-VVJ">
                                         <rect key="frame" x="0.0" y="41" width="111" height="31"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="To ThirdVC"/>
+                                        <connections>
+                                            <action selector="openThirdVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kbx-3B-2tP"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -55,19 +61,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="x4C-Ha-IoH">
-                                <rect key="frame" x="157.5" y="412" width="99.5" height="72"/>
+                                <rect key="frame" x="159" y="412" width="96" height="72"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tD9-8D-2GS">
-                                        <rect key="frame" x="0.0" y="0.0" width="99.5" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="96" height="31"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="To FirstVC"/>
+                                        <connections>
+                                            <action selector="openFirstVC:" destination="juE-CK-yuS" eventType="touchUpInside" id="HCc-DP-j67"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsL-vh-REe">
-                                        <rect key="frame" x="0.0" y="41" width="99.5" height="31"/>
+                                        <rect key="frame" x="0.0" y="41" width="96" height="31"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="To  ThirdVC"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="To ThirdVC"/>
+                                        <connections>
+                                            <action selector="openThirdVC:" destination="juE-CK-yuS" eventType="touchUpInside" id="Wo7-1y-aCw"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -100,12 +112,18 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="To FirstVC"/>
+                                        <connections>
+                                            <action selector="openFirstVC:" destination="sWt-lv-Uta" eventType="touchUpInside" id="ecM-1K-zuQ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3q-Ih-1Cv">
                                         <rect key="frame" x="0.0" y="41" width="111" height="31"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="To SecondVC"/>
+                                        <connections>
+                                            <action selector="openSecondVC:" destination="sWt-lv-Uta" eventType="touchUpInside" id="UxR-XE-Pwc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
