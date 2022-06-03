@@ -16,6 +16,8 @@ class AppCoordinator: Coordinator {
     }
     
     func start() {
-        
+        let vc = FirstViewController.createObject()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
     }
 }
