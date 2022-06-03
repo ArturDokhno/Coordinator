@@ -16,6 +16,7 @@
 		750B0124284A49A700FD2A7C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B0123284A49A700FD2A7C /* AppCoordinator.swift */; };
 		750B0126284A4A5500FD2A7C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B0125284A4A5500FD2A7C /* SecondViewController.swift */; };
 		750B0128284A4AE900FD2A7C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B0127284A4AE900FD2A7C /* ThirdViewController.swift */; };
+		750B012B284A4F4600FD2A7C /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B012A284A4F4600FD2A7C /* Storyboardable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		750B0123284A49A700FD2A7C /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		750B0125284A4A5500FD2A7C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		750B0127284A4AE900FD2A7C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		750B012A284A4F4600FD2A7C /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				750B0125284A4A5500FD2A7C /* SecondViewController.swift */,
 				750B0127284A4AE900FD2A7C /* ThirdViewController.swift */,
 				750B010F284A485B00FD2A7C /* Main.storyboard */,
+				750B012A284A4F4600FD2A7C /* Storyboardable.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				750B0124284A49A700FD2A7C /* AppCoordinator.swift in Sources */,
 				750B010E284A485B00FD2A7C /* FirstViewController.swift in Sources */,
+				750B012B284A4F4600FD2A7C /* Storyboardable.swift in Sources */,
 				750B010A284A485B00FD2A7C /* AppDelegate.swift in Sources */,
 				750B0126284A4A5500FD2A7C /* SecondViewController.swift in Sources */,
 				750B0128284A4AE900FD2A7C /* ThirdViewController.swift in Sources */,
